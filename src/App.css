@@ -36,6 +36,10 @@ body {
   .right-arrow {
     right: 140px;
   }
+
+  .left-arrow {
+    left: 800px
+  }
   
   .right-arrow:hover,
   .left-arrow:hover {
@@ -140,4 +144,13 @@ body {
     .exercise-card {
       width: 280px;
     }
+  }
+
+  .react-horizontal-scrolling-menu--scroll-container {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  }
+  
+  .react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
   }
